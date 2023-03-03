@@ -1,0 +1,126 @@
+.container {
+  margin: 0px 50px;
+  box-sizing: border-box;
+}
+
+.logo {
+  padding: 20px 0px;
+}
+.logo img {
+  width: auto;
+  height: 55px;
+}
+.preview {
+  /* background-image : url("https://picsum.photos/id/237/1366/768"); 
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    overflow:hidden;
+    
+    */
+}
+.preview .thumbs {
+  position: absolute;
+  width: 90vw;
+  height: auto;
+  visibility: hidden;
+}
+.preview .active {
+  visibility: visible;
+}
+/* #main.slider{
+    display: flex;
+    align-items: center;
+    position :absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+} */
+
+/*.main h1 {
+    margin-top: 0;
+    padding-left: 65px;
+    padding-top: 95px;
+    margin-inline: 10px;
+}
+.main h4 {
+    margin-top: 0;
+    padding-left: 95px;
+    padding-top: 10px;
+    margin-inline: 1px;
+}
+
+.text1{
+    text-align:center;
+    color:black;
+    font-size: 65px;
+    font-weight:bold;
+    padding-top: 50px;
+    margin: 0%;
+}
+.leftArrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 2px solid white;
+    height: 37px;
+    cursor:pointer;
+    background:rgba(255,254,255,0.2);
+    
+}
+.leftArrow:hover{
+    background:rgba(255,254,255,0.4);
+}
+.rightArrow {
+    position:absolute;
+   top: 50%;
+   right:0%;
+   transform: translateY(-50%);
+   border: 2px solid white;
+   height: 37px;
+   cursor:pointer;
+   background:rgba(255,254,255,0.2);
+}
+.rightArrow:hover{
+    background:rgba(255,254,255,0.4);
+
+}
+.slider{
+      align-items:center;
+      position:absolute;
+      display:flex;
+      top:20px;
+      left:50%;
+      transform: translateX(-50%);
+}*/
+
+/* #main.slider #next,
+#main.slider #prev{
+    width:40px;
+    cursor:pointer;
+
+}
+#main.slider.preview{
+    display:flex ;
+    align-items: left;
+    justify-content: left;
+    margin :0 60px;
+
+}
+#main.slider.preview img {
+    width:60px;
+    margin:0 10px;
+    opacity:0.6;
+    object-fit:cover;
+}
+#main.slider.preview.active{
+    display: block;
+    border: 3px solid #fff;
+    width: 200px;
+    height:200px;
+    border: radius 50%;
+    opacity: 1 ;
+
+
+}  */
